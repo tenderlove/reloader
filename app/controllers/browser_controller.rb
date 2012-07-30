@@ -17,7 +17,7 @@ class BrowserController < ApplicationController
       fsevent = FSEvent.new
 
       # Watch the above directories
-      fsevent.watch(*directories) do |dirs|
+      fsevent.watch(directories) do |dirs|
         # Send a message on the "refresh" channel on every update
         sse.write({ :dirs => dirs }, :event => 'refresh')
       end

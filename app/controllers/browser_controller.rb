@@ -1,0 +1,2 @@
+class BrowserController < ApplicationController
+end

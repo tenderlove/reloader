@@ -1,4 +1,6 @@
 Reloader::Application.routes.draw do
+  get 'browser' => 'browser#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

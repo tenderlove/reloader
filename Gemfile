@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails',     path: '/Users/aaron/git/rails'
+gem 'rails',     github: 'rails/rails', branch: 'async'
 gem 'journey',   github: 'rails/journey'
 gem 'arel',      github: 'rails/arel'
 gem 'active_record_deprecated_finders', github: 'rails/active_record_deprecated_finders'
